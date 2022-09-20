@@ -139,18 +139,16 @@ PRODUCT_PACKAGES += \
     libhwjsqz \
     libiwt \
     libkeymaster_helper \
-    libril_sem \
+    libril-samsung \
     libsensorlistener \
     libskeymaster4device \
     libuniapi \
     libvkmanager_vendor \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.bridge@2.0 \
-    vendor.samsung.hardware.radio.bridge@2.1 \
     vendor.samsung.hardware.radio.channel@2.0 \
     vendor.samsung.hardware.radio@2.0 \
     vendor.samsung.hardware.radio@2.1 \
-    vendor.samsung.hardware.radio@2.2 \
     libaptX_encoder \
     manifest_android.hardware.drm@1.4-service.widevine \
     cbd \
