@@ -79,47 +79,18 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libGLES_mali \
     vulkan.mali \
-    libExynosHWCService \
-    libExynosOMX_Core \
-    libExynosOMX_Resourcemanager \
-    libacryl.plugin.hdr.exynos9820 \
-    libacryl \
-    libcsc \
-    libdrmresource \
     libegis_fp_normal_sensor_test \
-    libexynosgraphicbuffer \
-    libexynosscaler \
-    libexynosutils \
-    libexynosv4l2 \
     libfloatingfeature \
     libgf_in_system_lib \
-    libgiantmscl \
-    libhdr10p_m2l.exynos9820 \
-    libhwjpeg \
-    libion_exynos \
     libqfp_sensortest \
     libsecaudioinfo \
     libsecnativefeature \
     libsecril-client.exynos9820 \
     libsemnativecarrierfeature \
-    libstagefrighthw \
     libsynaFpSensorTestNwd \
     libteecl \
     libuniplugin \
     libuuid \
-    libOMX.Exynos.AVC.Decoder \
-    libOMX.Exynos.AVC.Encoder \
-    libOMX.Exynos.AVC.WFD.Encoder \
-    libOMX.Exynos.HEVC.Decoder \
-    libOMX.Exynos.HEVC.Encoder \
-    libOMX.Exynos.HEVC.WFD.Encoder \
-    libOMX.Exynos.MPEG4.Decoder \
-    libOMX.Exynos.MPEG4.Encoder \
-    libOMX.Exynos.VP8.Decoder \
-    libOMX.Exynos.VP8.Encoder \
-    libOMX.Exynos.VP9.Decoder \
-    libOMX.Exynos.VP9.Encoder \
-    libOMX.Exynos.WMV.Decoder \
     sensors.grip \
     libSamsungPostProcessConvertor \
     lib_SoundAlive_SRC384_ver320 \
@@ -132,7 +103,6 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libaudioroute.exynos9820 \
     libtinyalsa.exynos9820 \
-    libGrallocWrapper \
     libSEF.quram \
     libengmode_client \
     libflicker_sec \
