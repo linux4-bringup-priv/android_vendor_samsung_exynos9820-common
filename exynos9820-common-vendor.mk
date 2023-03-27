@@ -119,7 +119,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.channel@2.0 \
     vendor.samsung.hardware.radio@2.0 \
     vendor.samsung.hardware.radio@2.1 \
-    libaptX_encoder \
     manifest_android.hardware.drm@1.4-service.widevine \
     cbd \
     android.hardware.drm@1.4-service.widevine \
