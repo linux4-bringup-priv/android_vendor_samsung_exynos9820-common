@@ -80,10 +80,8 @@ PRODUCT_PACKAGES += \
     libGLES_mali \
     vulkan.mali \
     libegis_fp_normal_sensor_test \
-    libfloatingfeature \
     libgf_in_system_lib \
     libqfp_sensortest \
-    libsecaudioinfo \
     libsecnativefeature \
     libsecril-client.exynos9820 \
     libsemnativecarrierfeature \
@@ -92,20 +90,14 @@ PRODUCT_PACKAGES += \
     libuniplugin \
     libuuid \
     sensors.grip \
-    libSamsungPostProcessConvertor \
-    lib_SoundAlive_SRC384_ver320 \
-    lib_soundaliveresampler \
-    libalsautils_sec \
-    libaudio-ril \
     liboemcrypto \
     libprofileparamstorage \
     libsecaudiocoreutils \
     libwvhidl \
-    libaudioroute.exynos9820 \
-    libtinyalsa.exynos9820 \
     libSEF.quram \
     libengmode_client \
     libflicker_sec \
+    libfloatingfeature \
     libhwjsqz \
     libiwt \
     libkeymaster_helper \
