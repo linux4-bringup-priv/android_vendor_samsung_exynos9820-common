@@ -16,7 +16,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9820-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/exynos9820-common/proprietary/vendor/etc/init/teegris_v3.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris_v3.rc \
     vendor/samsung/exynos9820-common/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
-    vendor/samsung/exynos9820-common/proprietary/vendor/etc/init/vendor.sem.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sem.rilchip.rc \
+    vendor/samsung/exynos9820-common/proprietary/vendor/etc/init/vendor.samsung.rilchip.slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.slsi.rc \
     vendor/samsung/exynos9820-common/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/exynos9820-common/proprietary/vendor/etc/init/wifi_brcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_brcm.rc \
     vendor/samsung/exynos9820-common/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -114,10 +114,16 @@ PRODUCT_PACKAGES += \
     libvkmanager_vendor \
     libvkservice \
     vendor.samsung.hardware.gnss@2.0 \
-    vendor.samsung.hardware.radio.bridge@2.0 \
-    vendor.samsung.hardware.radio.bridge@2.1 \
-    vendor.samsung.hardware.radio.channel@2.0 \
+    vendor.samsung.hardware.radio-V1-ndk \
+    vendor.samsung.hardware.radio.bridge-V1-ndk \
+    vendor.samsung.hardware.radio.channel-V1-ndk \
+    vendor.samsung.hardware.radio.data-V1-ndk \
+    vendor.samsung.hardware.radio.messaging-V1-ndk \
+    vendor.samsung.hardware.radio.sim-V1-ndk \
     manifest_android.hardware.drm@1.4-service.widevine \
+    vendor.samsung.hardware.radio.exclude.slsi \
+    vendor.samsung.hardware.radio_manifest_2_33 \
+    vendor.samsung.hardware.sehradio_manifest_2_33 \
     cass \
     cbd \
     android.hardware.drm@1.4-service.widevine \
