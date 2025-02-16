@@ -119,7 +119,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio_manifest_2_33 \
     vendor.samsung.hardware.sehradio_manifest_2_33 \
     cass \
-    cbd \
     android.hardware.drm@1.4-service.widevine \
     rild \
     tzdaemon \

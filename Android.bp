@@ -749,23 +749,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "cbd",
-	owner: "samsung",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/cbd"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "android.hardware.drm@1.4-service.widevine",
 	owner: "samsung",
 	target: {
