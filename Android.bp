@@ -914,7 +914,7 @@ cc_prebuilt_library_shared {
                 "libjsoncpp",
                 "libSemTelephonyProps",
                 "libSemDataProps",
-                "//device/samsung/exynos9820-common/shims/stub:libvkmanager_vendor",
+                "libvkmanager_vendor",
                 "libengmode_client",
                 "libbase",
                 "libbinder_ndk",
@@ -1278,7 +1278,7 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "libengmode_client",
-                "//device/samsung/exynos9820-common/shims/stub:libvkmanager_vendor",
+                "libvkmanager_vendor",
                 "libsecril-client",
                 "libcutils",
                 "liblog",
@@ -1461,4 +1461,10 @@ install_symlink {
     soc_specific: true,
     installed_location: "lib64/libOpenCL.so.1.1",
     symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+cc_library_shared {
+    name: "libvkmanager_vendor",
+    compile_multilib: "64",
+    soc_specific: true,
 }
