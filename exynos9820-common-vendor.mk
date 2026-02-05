@@ -105,6 +105,7 @@ PRODUCT_PACKAGES += \
     libsec-ril \
     libsensorlistener \
     libskeymaster4device \
+    libssl-tm \
     libsynaFpSensorTestNwd \
     libuniapi \
     vendor.samsung.hardware.gnss@2.0 \
